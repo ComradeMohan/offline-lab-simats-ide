@@ -1,0 +1,1081 @@
+{
+  "course": "DSA01 \u2013 Object Oriented Programming with C++",
+    "total_questions": 108,
+      "questions": [
+        {
+          "id": 1,
+          "title": "Shape Properties (Virtual Functions)",
+          "question_statement": "Create a Shape base class with virtual functions for area(), perimeter(), and print(). Implement derived classes for Circle, Rectangle, and Triangle [7-9].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "Circle radius 5",
+          "sample_output": "Circle: area = 78.53, perimeter = 31.41",
+          "solution_explanation": "Use virtual methods in C++ to allow polymorphic behavior across different shape types."
+        },
+        {
+          "id": 2,
+          "title": "University Management System",
+          "question_statement": "Design a system using classes for Person, Student, Professor, and Course. Include functionality for enrollment and teaching assignments [10-13].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "Student Alice, Professor John",
+          "sample_output": "John is teaching CS101 - Intro to CS",
+          "solution_explanation": "Implement class associations where Course objects maintain vectors of Student pointers."
+        },
+        {
+          "id": 3,
+          "title": "Employee Bonus Calculation",
+          "question_statement": "Calculate a 5% bonus for grade A and 10% for grade B. Add an extra 2% if the salary is below 10,000 [14, 15].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Grade: A, Salary: 8000",
+          "sample_output": "Bonus = 560, Total = 8560",
+          "solution_explanation": "Apply conditional checks for the grade and an independent check for the low-salary threshold."
+        },
+        {
+          "id": 4,
+          "title": "Basic Arithmetic Operations",
+          "question_statement": "Perform addition, subtraction, multiplication, and division on two integers [15, 16].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "4, 2",
+          "sample_output": "Sum: 6, Sub: 2, Mul: 8, Div: 2",
+          "solution_explanation": "Use standard arithmetic operators (+, -, *, /)."
+        },
+        {
+          "id": 5,
+          "title": "Interest Calculator",
+          "question_statement": "Calculate Simple Interest and Compound Interest based on principal, rate, and time [16, 17].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "1000, 5, 2",
+          "sample_output": "SI: 100, CI: 102.5",
+          "solution_explanation": "Apply the standard mathematical formulas for SI and CI."
+        },
+        {
+          "id": 6,
+          "title": "Temperature Conversion",
+          "question_statement": "Convert temperature from Celsius to Fahrenheit [17, 18].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "37",
+          "sample_output": "98.6",
+          "solution_explanation": "Formula: F = (C * 9/5) + 32."
+        },
+        {
+          "id": 7,
+          "title": "Odd or Even Check",
+          "question_statement": "Determine if a given integer is odd or even [19, 20].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "Odd",
+          "solution_explanation": "Use the modulus operator (%) to check if the remainder is zero when divided by 2."
+        },
+        {
+          "id": 8,
+          "title": "Greater of Two Numbers",
+          "question_statement": "Accept two numbers and print which one is greater [19, 21].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "10, 20",
+          "sample_output": "20 is greater",
+          "solution_explanation": "A simple if-else condition handles the comparison."
+        },
+        {
+          "id": 9,
+          "title": "Factorial (Iterative)",
+          "question_statement": "Find the factorial of a given number using a loop [1, 22].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "120",
+          "solution_explanation": "Loop from 1 to N, maintaining a product."
+        },
+        {
+          "id": 10,
+          "title": "Prime Number Check",
+          "question_statement": "Determine whether a given number is a prime number [1, 4, 23].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "7",
+          "sample_output": "Prime",
+          "solution_explanation": "Check for divisors between 2 and half of the number."
+        },
+        {
+          "id": 11,
+          "title": "Fibonacci Series",
+          "question_statement": "Generate the Fibonacci series up to N terms [23-25].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "0 1 1 2 3",
+          "solution_explanation": "Iteratively calculate each term by adding the two previous terms."
+        },
+        {
+          "id": 12,
+          "title": "Palindrome Number Check",
+          "question_statement": "Check if a number is a palindrome [24, 26].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "121",
+          "sample_output": "Palindrome",
+          "solution_explanation": "Reverse the digits and compare the result with the original value."
+        },
+        {
+          "id": 13,
+          "title": "Armstrong Number",
+          "question_statement": "Determine if a three-digit integer is an Armstrong number [27, 28].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "153",
+          "sample_output": "Armstrong",
+          "solution_explanation": "The sum of the cubes of its digits must equal the number."
+        },
+        {
+          "id": 14,
+          "title": "String to Uppercase",
+          "question_statement": "Convert a given string to uppercase using standard transformations [29, 30].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "hello",
+          "sample_output": "HELLO",
+          "solution_explanation": "Use transform() with ::toupper in C++."
+        },
+        {
+          "id": 15,
+          "title": "Average of Three Numbers",
+          "question_statement": "Calculate the average of three given integers [29, 31, 32].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "10, 20, 30",
+          "sample_output": "20.0",
+          "solution_explanation": "Sum the values and divide by 3.0."
+        },
+        {
+          "id": 16,
+          "title": "Divisibility by 3 (Ternary)",
+          "question_statement": "Use a ternary operator to check if an integer is divisible by 3 [31, 33].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "9",
+          "sample_output": "Divisible by 3",
+          "solution_explanation": "Condition ? result1 : result2."
+        },
+        {
+          "id": 17,
+          "title": "Sequential Printing",
+          "question_statement": "Print numbers from 1 to 10 using a for loop [34, 35].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "N/A",
+          "sample_output": "1 2 3 4 5 6 7 8 9 10",
+          "solution_explanation": "A basic for loop starting from 1 to 10."
+        },
+        {
+          "id": 18,
+          "title": "Multiplication Table",
+          "question_statement": "Print the multiplication table for a specific number [34, 36, 37].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "5 x 1 = 5 ... 5 x 10 = 50",
+          "solution_explanation": "Iterate from 1 to 10 and multiply with the input number."
+        },
+        {
+          "id": 19,
+          "title": "Sum of Digits",
+          "question_statement": "Calculate the sum of the digits of a given number [36, 38, 39].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "123",
+          "sample_output": "6",
+          "solution_explanation": "Extract digits using modulus 10 and sum them."
+        },
+        {
+          "id": 20,
+          "title": "Equality Check",
+          "question_statement": "Compare two integers to see if they are equal [38, 40, 41].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5, 5",
+          "sample_output": "Equal",
+          "solution_explanation": "Use the equality operator (==)."
+        },
+        {
+          "id": 21,
+          "title": "Floating-point Arithmetic",
+          "question_statement": "Perform arithmetic operations including modulus on floating-point numbers [40, 42, 43].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "10.5, 2.0",
+          "sample_output": "Sum: 12.5, Mod: 0.5",
+          "solution_explanation": "Use std::fmod for calculating the remainder of doubles."
+        },
+        {
+          "id": 22,
+          "title": "Vowel or Consonant Check",
+          "question_statement": "Determine if a character is a vowel, consonant, or an invalid alphabet [42, 44, 45].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "a",
+          "sample_output": "Vowel",
+          "solution_explanation": "Check against a predefined set of vowels (a, e, i, o, u)."
+        },
+        {
+          "id": 23,
+          "title": "Number Sign Check",
+          "question_statement": "Determine if a number is positive, negative, or zero [44, 46].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "-5",
+          "sample_output": "Negative",
+          "solution_explanation": "Use nested if-else statements."
+        },
+        {
+          "id": 24,
+          "title": "Rounding (Floor/Ceil)",
+          "question_statement": "Round a floating-point number down (floor) and up (ceil) [46-48].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5.6",
+          "sample_output": "Floor: 5, Ceil: 6",
+          "solution_explanation": "Utilize floor() and ceil() functions from the math library."
+        },
+        {
+          "id": 25,
+          "title": "Swapping with XOR",
+          "question_statement": "Swap two variables using the XOR bitwise operator [47, 49].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "x=10, y=20",
+          "sample_output": "x=20, y=10",
+          "solution_explanation": "Apply the property that x ^ x = 0."
+        },
+        {
+          "id": 26,
+          "title": "Largest of Three (Ternary)",
+          "question_statement": "Find the largest of three integers using ternary operators [49, 50].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "10, 30, 20",
+          "sample_output": "30",
+          "solution_explanation": "Nest two ternary expressions to compare all three values."
+        },
+        {
+          "id": 27,
+          "title": "Greatest Common Divisor (GCD)",
+          "question_statement": "Find the GCD of two numbers using loops [51-53].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "12, 18",
+          "sample_output": "6",
+          "solution_explanation": "Iterate from 1 to the minimum of the two numbers."
+        },
+        {
+          "id": 28,
+          "title": "Narcissistic Number",
+          "question_statement": "Check if an integer is a narcissistic number (sum of digits raised to power of count) [54, 55].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "1634",
+          "sample_output": "Narcissistic",
+          "solution_explanation": "Count digits N, then sum (digit^N)."
+        },
+        {
+          "id": 29,
+          "title": "Hollow Triangle Pattern",
+          "question_statement": "Print a hollow triangle star pattern with 6 rows [55, 56].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "6",
+          "sample_output": "* (hollow shape)",
+          "solution_explanation": "Use nested loops and conditional checks for boundaries."
+        },
+        {
+          "id": 30,
+          "title": "Pascal's Triangle",
+          "question_statement": "Generate N rows of Pascal's triangle [56, 57].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "Triangle values",
+          "solution_explanation": "Calculate each row element using binomial coefficients."
+        },
+        {
+          "id": 31,
+          "title": "Diamond Pattern",
+          "question_statement": "Print a diamond pattern of stars [57-59].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "Diamond shape",
+          "solution_explanation": "Combine upper and lower symmetric triangle patterns."
+        },
+        {
+          "id": 32,
+          "title": "Perfect Number Check",
+          "question_statement": "Determine if a number is a perfect number [58, 60, 61].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "6",
+          "sample_output": "Perfect",
+          "solution_explanation": "A perfect number equals the sum of its proper divisors."
+        },
+        {
+          "id": 33,
+          "title": "Harshad Number",
+          "question_statement": "Check if a number is divisible by the sum of its digits [62-64].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "18",
+          "sample_output": "Harshad",
+          "solution_explanation": "Calculate digit sum and perform divisibility check."
+        },
+        {
+          "id": 34,
+          "title": "Happy Number Check",
+          "question_statement": "Determine if a number is a Happy Number [65-68].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "19",
+          "sample_output": "Happy",
+          "solution_explanation": "Sum of squares of digits must eventually reach 1."
+        },
+        {
+          "id": 35,
+          "title": "Strong Number",
+          "question_statement": "Check if a number is a Strong number (sum of factorials of digits) [69, 70].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "145",
+          "sample_output": "Strong",
+          "solution_explanation": "Pre-calculate factorials of digits 0-9 for efficiency."
+        },
+        {
+          "id": 36,
+          "title": "Buzz Number",
+          "question_statement": "Check if a number is divisible by 7 or ends with 7 [70, 71].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "27",
+          "sample_output": "Buzz",
+          "solution_explanation": "Conditions: (n % 7 == 0) || (n % 10 == 7)."
+        },
+        {
+          "id": 37,
+          "title": "Neon Number",
+          "question_statement": "Determine if the sum of digits of the square of a number equals the number [71, 72].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "9",
+          "sample_output": "Neon",
+          "solution_explanation": "Calculate square, then sum digits of the square."
+        },
+        {
+          "id": 38,
+          "title": "Abundant Number",
+          "question_statement": "Check if the sum of proper divisors is greater than the number [72, 73].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "12",
+          "sample_output": "Abundant",
+          "solution_explanation": "Proper divisors of 12 (1, 2, 3, 4, 6) sum to 16, which is > 12."
+        },
+        {
+          "id": 39,
+          "title": "Number Pattern (Rows)",
+          "question_statement": "Print a triangle pattern where each row contains its row index [73-75].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "3",
+          "sample_output": "1 / 2 2 / 3 3 3",
+          "solution_explanation": "Outer loop rows, inner loop prints 'i' count."
+        },
+        {
+          "id": 40,
+          "title": "Reverse an Array",
+          "question_statement": "Reverse the elements of an integer array [74, 76, 77].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "{1, 2, 3}",
+          "sample_output": "{3, 2, 1}",
+          "solution_explanation": "Use two-pointer swap method or a temporary array."
+        },
+        {
+          "id": 41,
+          "title": "Matrix Addition (3x3)",
+          "question_statement": "Perform element-wise addition of two 3x3 matrices [77-79].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Two 3x3 matrices",
+          "sample_output": "Resultant matrix",
+          "solution_explanation": "Use nested loops to traverse rows and columns."
+        },
+        {
+          "id": 42,
+          "title": "Matrix Multiplication",
+          "question_statement": "Multiply two matrices after validating their dimensions [80-82].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "3x3 and 3x2 matrices",
+          "sample_output": "3x2 result",
+          "solution_explanation": "Apply the dot product rule using three nested loops."
+        },
+        {
+          "id": 43,
+          "title": "Matrix Diagonal Sum",
+          "question_statement": "Calculate the sum of both the primary and secondary diagonals [83-85].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "3x3 matrix",
+          "sample_output": "Diagonal sums",
+          "solution_explanation": "Primary: row == col; Secondary: row + col == n - 1."
+        },
+        {
+          "id": 44,
+          "title": "Insert into Array",
+          "question_statement": "Insert an element at a specific index in an array [86, 87].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Val: 10, Index: 2",
+          "sample_output": "Shifted array",
+          "solution_explanation": "Shift subsequent elements to the right before insertion."
+        },
+        {
+          "id": 45,
+          "title": "Delete from Array",
+          "question_statement": "Delete an element from a specific index in an array [87-89].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Index: 2",
+          "sample_output": "Shifted array",
+          "solution_explanation": "Shift subsequent elements to the left after deletion."
+        },
+        {
+          "id": 46,
+          "title": "Sum of Array Elements",
+          "question_statement": "Calculate the total sum of array elements [90-92].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "{1, 2, 3}",
+          "sample_output": "6",
+          "solution_explanation": "Accumulate elements in a sum variable using a loop."
+        },
+        {
+          "id": 47,
+          "title": "Average of Array",
+          "question_statement": "Find the average value of elements in an array [93-95].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "{5, 15}",
+          "sample_output": "10.0",
+          "solution_explanation": "Divide the array sum by its length."
+        },
+        {
+          "id": 48,
+          "title": "Second Largest Element",
+          "question_statement": "Find the second largest integer in an array [96, 97].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "{10, 20, 30}",
+          "sample_output": "20",
+          "solution_explanation": "Maintain max and second-max variables while iterating once."
+        },
+        {
+          "id": 49,
+          "title": "Value Frequency",
+          "question_statement": "Count the number of times a specific value appears in an array [98, 99].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "2 in {1, 2, 2, 3}",
+          "sample_output": "2 times",
+          "solution_explanation": "Iterate through the array and increment a counter on matches."
+        },
+        {
+          "id": 50,
+          "title": "Merge Sorted Arrays",
+          "question_statement": "Merge two pre-sorted arrays into a single sorted array [99-101].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "{1, 3}, {2, 4}",
+          "sample_output": "{1, 2, 3, 4}",
+          "solution_explanation": "Compare elements from both arrays and insert the smaller one sequentially."
+        },
+        {
+          "id": 51,
+          "title": "Dynamic Array Allocation",
+          "question_statement": "Use pointers to allocate and display a dynamic array [101-103].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Size: 3",
+          "sample_output": "Address-based values",
+          "solution_explanation": "Use new[] and delete[] operators to manage heap memory."
+        },
+        {
+          "id": 52,
+          "title": "Recursive Factorial",
+          "question_statement": "Calculate the factorial of a number using recursion [2, 102].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "120",
+          "solution_explanation": "Implement base case (n=0) and recursive call (n * fact(n-1))."
+        },
+        {
+          "id": 53,
+          "title": "Call-by-Value vs Reference",
+          "question_statement": "Demonstrate the difference between swapping values using value vs reference [104-107].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "a=5, b=10",
+          "sample_output": "Value: no change; Reference: swapped",
+          "solution_explanation": "Call-by-value creates a copy; call-by-reference operates on the original memory."
+        },
+        {
+          "id": 54,
+          "title": "Voting Eligibility",
+          "question_statement": "Check if a user is eligible to vote (age >= 18) [108-110].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "16",
+          "sample_output": "Eligible in 2 years",
+          "solution_explanation": "Simple age comparison with logic for remaining years."
+        },
+        {
+          "id": 55,
+          "title": "Variable Addresses",
+          "question_statement": "Print the memory addresses of various variable types [108, 111-113].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Int, Float, Char",
+          "sample_output": "Hex addresses",
+          "solution_explanation": "Use the address-of operator (&) for each variable."
+        },
+        {
+          "id": 56,
+          "title": "Square Calculation (Inline)",
+          "question_statement": "Calculate the square of a number using regular and inline functions [111, 114].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "4",
+          "sample_output": "16",
+          "solution_explanation": "Demonstrate the 'inline' keyword for potential optimization."
+        },
+        {
+          "id": 57,
+          "title": "Student Grading Class",
+          "question_statement": "Define a Student class to calculate average score and assign letter grades [114-117].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Marks: 95, 85, 75",
+          "sample_output": "A Grade",
+          "solution_explanation": "Encapsulate data and use if-else logic within a class method."
+        },
+        {
+          "id": 58,
+          "title": "Number Comparison Class",
+          "question_statement": "Create a class with methods to read and compare two integers [41, 118].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5, 10",
+          "sample_output": "Not equal",
+          "solution_explanation": "Practice basic class-member function structure."
+        },
+        {
+          "id": 59,
+          "title": "Employee Bonus Class",
+          "question_statement": "Define an Employee class with a constructor and display function for salary data [119, 120].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Salary: 10000, Bonus: 11000",
+          "sample_output": "Employee details displayed",
+          "solution_explanation": "Use constructors to initialize object state."
+        },
+        {
+          "id": 60,
+          "title": "Nth Bit Operations",
+          "question_statement": "Set or check the Nth bit of a given integer [121-124].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Num: 10, Bit: 2",
+          "sample_output": "Updated number / bit status",
+          "solution_explanation": "Apply bitwise shift (1 << n) and OR/AND operators."
+        },
+        {
+          "id": 61,
+          "title": "Most Frequent Element",
+          "question_statement": "Find the element that appears most often in an array [125-128].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "{1, 2, 2, 3}",
+          "sample_output": "Most occurred: 2",
+          "solution_explanation": "Use frequency counting or hashing to find the mode."
+        },
+        {
+          "id": 62,
+          "title": "Power Calculation",
+          "question_statement": "Calculate the power of a number (base^exponent) [129-131].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "2, 3",
+          "sample_output": "8",
+          "solution_explanation": "Iterative multiplication or usage of pow() function."
+        },
+        {
+          "id": 63,
+          "title": "Integer Square Root",
+          "question_statement": "Find the integer square root of a number without library functions [132].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "25",
+          "sample_output": "5",
+          "solution_explanation": "Loop from 0 up to n/2 to find where i*i == n."
+        },
+        {
+          "id": 64,
+          "title": "Integer Cube Root",
+          "question_statement": "Find the integer cube root of a given number [60, 133-135].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "27",
+          "sample_output": "3",
+          "solution_explanation": "Iteratively check i*i*i until it matches or exceeds n."
+        },
+        {
+          "id": 65,
+          "title": "Sum of Natural Numbers",
+          "question_statement": "Calculate the sum of the first N natural numbers using while and do-while loops [136-138].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "15",
+          "solution_explanation": "Practice different loop structures for a common summation task."
+        },
+        {
+          "id": 66,
+          "title": "Complex Number Overloading",
+          "question_statement": "Overload + and - operators for complex number arithmetic [139-144].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "(3+2i), (1+7i)",
+          "sample_output": "Sum: (4+9i)",
+          "solution_explanation": "Define operator methods within a class to handle custom data structures."
+        },
+        {
+          "id": 67,
+          "title": "Income Tax Calculator",
+          "question_statement": "Calculate income tax based on brackets: 60k(0%), 150k(5%), 500k(10%), above(15%) [141, 144-146].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "70000",
+          "sample_output": "Tax: 3500.00",
+          "solution_explanation": "Use a series of if-else-if statements to identify the tax tier."
+        },
+        {
+          "id": 68,
+          "title": "Constructor Overloading (Area)",
+          "question_statement": "Calculate the area of a circle, rectangle, and triangle using overloaded constructors [145, 147-151].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Shape(3)",
+          "sample_output": "Circle Area: 28.26",
+          "solution_explanation": "Define multiple constructors with different parameter signatures."
+        },
+        {
+          "id": 69,
+          "title": "Volume of 3D Objects",
+          "question_statement": "Overload constructors to calculate volumes of cubes and cylinders [152-155].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Cube(3)",
+          "sample_output": "Volume: 27",
+          "solution_explanation": "Differentiate between single-param (cube) and double-param (cylinder) constructors."
+        },
+        {
+          "id": 70,
+          "title": "Floyd's Triangle",
+          "question_statement": "Print N rows of Floyd's triangle using a constructor/destructor pattern [156-158].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "4",
+          "sample_output": "1 / 2 3 / 4 5 6 / 7 8 9 10",
+          "solution_explanation": "A running counter is printed in rows of increasing width."
+        },
+        {
+          "id": 71,
+          "title": "Decimal to Binary",
+          "question_statement": "Convert a decimal integer to its binary equivalent [159-162].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "10",
+          "sample_output": "1010",
+          "solution_explanation": "Successive division by 2 and collecting remainders."
+        },
+        {
+          "id": 72,
+          "title": "Private Inheritance",
+          "question_statement": "Demonstrate private inheritance and visibility of protected members [163-165].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Class B : private A",
+          "sample_output": "Access valid within B only",
+          "solution_explanation": "Private inheritance makes public/protected members of the base class private in the derived class."
+        },
+        {
+          "id": 73,
+          "title": "Multiple Inheritance Sum",
+          "question_statement": "Calculate sum by inheriting values from two independent base classes [165-169].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "X=10, Y=20",
+          "sample_output": "Sum=30",
+          "solution_explanation": "Derived class inherits from Base1 and Base2 simultaneously."
+        },
+        {
+          "id": 74,
+          "title": "Polymorphic Area Calculation",
+          "question_statement": "Use pure virtual functions to calculate area for Square and Circle [112, 170, 171].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "Square side 4",
+          "sample_output": "Area: 16",
+          "solution_explanation": "Abstract base class Shape defines a virtual area() interface."
+        },
+        {
+          "id": 75,
+          "title": "The 'this' Pointer",
+          "question_statement": "Display a variable value using the 'this' pointer [113, 171].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "20",
+          "sample_output": "x = 20",
+          "solution_explanation": "Use 'this->x' to distinguish member variables from parameters."
+        },
+        {
+          "id": 76,
+          "title": "Array/Pointer Addresses",
+          "question_statement": "Print element addresses using both array indexing and pointer arithmetic [92, 113, 167, 172].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "{10, 20, 30}",
+          "sample_output": "Addresses (ptr + i)",
+          "solution_explanation": "Show how *(ptr + i) corresponds to arr[i]."
+        },
+        {
+          "id": 77,
+          "title": "Bank Management System",
+          "question_statement": "Implement a full bank system with deposits, withdrawals, and balance inquiries via inheritance [173-179].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "Deposit 500",
+          "sample_output": "New Balance displayed",
+          "solution_explanation": "Inherit Customer and Account details into a central Bank class."
+        },
+        {
+          "id": 78,
+          "title": "Student Report Generator",
+          "question_statement": "Generate a final report with marks and percentages using inheritance [180-184].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "3 subject marks",
+          "sample_output": "Percentage and Grade",
+          "solution_explanation": "Calculate student statistics by inheriting from a core Student class."
+        },
+        {
+          "id": 79,
+          "title": "Net Salary Calculation",
+          "question_statement": "Calculate Net Salary by deducting taxes from Gross Salary using multilevel inheritance [183, 185-188].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Basic: 50000",
+          "sample_output": "Gross: 55000, Net: 52250",
+          "solution_explanation": "Chain classes: Employee -> GrossSalary -> NetSalary."
+        },
+        {
+          "id": 80,
+          "title": "Infinite Sorting",
+          "question_statement": "Sort an infinite list of input numbers until -1 is entered [186, 189].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "5, 2, 8, -1",
+          "sample_output": "2 5 8",
+          "solution_explanation": "Use a dynamic container like std::vector and sort() algorithm."
+        },
+        {
+          "id": 81,
+          "title": "Patient-Doctor Records",
+          "question_statement": "Manage medical records by linking patients to specific doctors [153, 189-191].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Name, Bed #, Doctor",
+          "sample_output": "Full Record",
+          "solution_explanation": "Associate Patient data with Doctor details through class inheritance."
+        },
+        {
+          "id": 82,
+          "title": "Username Validation",
+          "question_statement": "Check if a re-entered username matches the original entry [109, 192].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Admin, Admin",
+          "sample_output": "Valid",
+          "solution_explanation": "Simple string equality comparison."
+        },
+        {
+          "id": 83,
+          "title": "Senior Citizen Interest",
+          "question_statement": "Apply 10% interest for senior citizens and 12% for others [193].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Age: 65, Principal: 1000",
+          "sample_output": "Interest: 100",
+          "solution_explanation": "Conditional interest rate application based on age input."
+        },
+        {
+          "id": 84,
+          "title": "Default Arguments Sum",
+          "question_statement": "Implement a sum function that handles up to four integers using default arguments [194].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "10, 20",
+          "sample_output": "30",
+          "solution_explanation": "Specify default values (0) in the function signature."
+        },
+        {
+          "id": 85,
+          "title": "Static Member Counter",
+          "question_statement": "Use a static variable to count how many objects of a class are created [195-197].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Create 2 cars",
+          "sample_output": "Count: 2",
+          "solution_explanation": "Increment a static class member within the constructor."
+        },
+        {
+          "id": 86,
+          "title": "Calculator via Switch",
+          "question_statement": "Build a menu-driven calculator for basic arithmetic using switch/case [197-202].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Choice: 1, Num1: 5, Num2: 3",
+          "sample_output": "Sum: 8",
+          "solution_explanation": "Map choices (1-5) to arithmetic operations."
+        },
+        {
+          "id": 87,
+          "title": "Programmer Pay Slip",
+          "question_statement": "Generate a detailed payslip including DA (97%), HRA (10%), and PF (12%) deductions [203-206].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "Basic: 10000",
+          "sample_output": "Net Pay calculated",
+          "solution_explanation": "Perform percentage-based financial calculations."
+        },
+        {
+          "id": 88,
+          "title": "Remove Array Duplicates",
+          "question_statement": "Sort an array and remove all duplicate elements [206, 207].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "{15, 14, 14, 25}",
+          "sample_output": "{14, 15, 25}",
+          "solution_explanation": "Sort the array, then use unique() and erase() algorithms."
+        },
+        {
+          "id": 89,
+          "title": "Mammal/Marine Animal Taxonomy",
+          "question_statement": "Implement a BlueWhale class inheriting from both Mammals and MarineAnimals [208, 209].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Method calls",
+          "sample_output": "Taxonomy confirmed",
+          "solution_explanation": "Demonstrate multiple inheritance hierarchy."
+        },
+        {
+          "id": 90,
+          "title": "Degree Hierarchy",
+          "question_statement": "Create classes for Undergraduate and Postgraduate inheriting from a base Degree class [148, 209].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Constructors",
+          "sample_output": "Degree levels printed",
+          "solution_explanation": "Basic hierarchical inheritance demonstration."
+        },
+        {
+          "id": 91,
+          "title": "Physics/Math/Chem Marks",
+          "question_statement": "Manage subject-specific marks for a class of students [210-214].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "N students",
+          "sample_output": "Roll # with averages",
+          "solution_explanation": "Use separate subclasses for subjects inheriting from a core Marks class."
+        },
+        {
+          "id": 92,
+          "title": "2x2 Matrix Add/Sub Switch",
+          "question_statement": "Allow user to choose between adding or subtracting 2x2 matrices [79, 214-216].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "Choice: 1",
+          "sample_output": "Summed matrix",
+          "solution_explanation": "Matrix math within a conditional switch block."
+        },
+        {
+          "id": 93,
+          "title": "ASCII Character Value",
+          "question_statement": "Retrieve the ASCII integer value for any given character [95].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "A",
+          "sample_output": "65",
+          "solution_explanation": "Typecast a char to an int to reveal its ASCII code."
+        },
+        {
+          "id": 94,
+          "title": "Days to YMD Conversion",
+          "question_statement": "Convert a total number of days into Years, Months, Weeks, and Days [134, 217].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "400",
+          "sample_output": "1 Yr, 1 Mo, 1 Wk, 0 Days",
+          "solution_explanation": "Use integer division and modulus with values 365, 30, and 7."
+        },
+        {
+          "id": 95,
+          "title": "Cube of a Number",
+          "question_statement": "Calculate the third power of a number [134, 218-220].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "3",
+          "sample_output": "27",
+          "solution_explanation": "Simple x * x * x multiplication."
+        },
+        {
+          "id": 96,
+          "title": "Decimal to Octal",
+          "question_statement": "Convert a decimal integer to its octal representation [162, 221].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "33",
+          "sample_output": "41",
+          "solution_explanation": "Divide by 8 and collect remainders."
+        },
+        {
+          "id": 97,
+          "title": "LCM and GCD",
+          "question_statement": "Find both the Least Common Multiple and GCD of two numbers [52, 222].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "4, 6",
+          "sample_output": "GCD: 2, LCM: 12",
+          "solution_explanation": "LCM(a,b) = (a*b) / GCD(a,b)."
+        },
+        {
+          "id": 98,
+          "title": "Leap Year Check",
+          "question_statement": "Determine if a year is a leap year based on Gregorian rules [222, 223].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "2000",
+          "sample_output": "Leap Year",
+          "solution_explanation": "Check divisibility by 4, 100, and 400."
+        },
+        {
+          "id": 99,
+          "title": "Min/Max in List",
+          "question_statement": "Find the minimum and maximum values in a given list of integers [224-226].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "{2, 1, 6}",
+          "sample_output": "Max: 6, Min: 1",
+          "solution_explanation": "Single-pass iteration comparing each element against current bounds."
+        },
+        {
+          "id": 100,
+          "title": "Min/Max Sum & Sub",
+          "question_statement": "Calculate the sum and difference between the max and min of an array [225, 226].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "{11, 2, 6}",
+          "sample_output": "Sum: 13, Diff: 9",
+          "solution_explanation": "Identify min/max first, then perform secondary arithmetic."
+        },
+        {
+          "id": 101,
+          "title": "Hierarchical Square/Cube",
+          "question_statement": "Inherit from a Number class to calculate square and cube values [227-229].",
+          "difficulty": "easy",
+          "max_score": 100,
+          "sample_input": "5",
+          "sample_output": "Sq: 25, Cube: 125",
+          "solution_explanation": "Common base class Number provides the input value."
+        },
+        {
+          "id": 102,
+          "title": "Binary Search",
+          "question_statement": "Search for a target value in a sorted array using binary search [120, 230].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "Tgt: 5, Arr: {1, 3, 5, 7}",
+          "sample_output": "Found at index 3",
+          "solution_explanation": "Repeatedly divide the search interval in half."
+        },
+        {
+          "id": 103,
+          "title": "Division Exception Handling",
+          "question_statement": "Use try-catch blocks to handle division by zero errors [231, 232].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "10 / 0",
+          "sample_output": "Exception: Division by zero not allowed!",
+          "solution_explanation": "Throw a runtime_error and catch it to prevent program crash."
+        },
+        {
+          "id": 104,
+          "title": "Unique Element (XOR)",
+          "question_statement": "Find the unique element in an array where every other element repeats twice [233, 234].",
+          "difficulty": "medium",
+          "max_score": 100,
+          "sample_input": "{1, 2, 3, 2, 1}",
+          "sample_output": "3",
+          "solution_explanation": "XORing all elements results in the unique value as duplicates cancel out."
+        },
+        {
+          "id": 105,
+          "title": "Valid Parentheses Check",
+          "question_statement": "Determine if a string of parentheses is valid [45, 235].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "()[]{}",
+          "sample_output": "Valid",
+          "solution_explanation": "Use a stack to ensure every opening bracket has a matching closing bracket."
+        },
+        {
+          "id": 106,
+          "title": "Median of Two Arrays",
+          "question_statement": "Merge two arrays and find the median value of the combined list [236, 237].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "Arr1, Arr2",
+          "sample_output": "Median value",
+          "solution_explanation": "Merge, sort, and find the middle element(s)."
+        },
+        {
+          "id": 107,
+          "title": "Minimum Window Substring",
+          "question_statement": "Find the smallest window in a string that contains all characters of another string [33, 237, 238].",
+          "difficulty": "hard",
+          "max_score": 100,
+          "sample_input": "ARUNREDDYKONKALA, AKR",
+          "sample_output": "Smallest window",
+          "solution_explanation": "Use a sliding window approach with two pointers and a character map."
+        },
+        {
+          "id": 108,
+          "title": "Sum of Two Primes",
+          "question_statement": "Find two prime numbers that sum up to a given even integer [239, 240]."
+        }
+      ]
+}

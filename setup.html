@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup - SIMATS Lab IDE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0c0c0e 0%, #1a1a24 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #e0e0e0;
+            overflow: hidden;
+        }
+
+        #setup-container {
+            width: 500px;
+            background: rgba(30, 30, 35, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .slide {
+            display: none;
+            animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #aaa;
+            margin-bottom: 24px;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 24px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .feature-icon {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .feature-text strong {
+            display: block;
+            color: #eee;
+            font-size: 0.95rem;
+        }
+
+        .feature-text span {
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 32px;
+        }
+
+        .progress-dots {
+            display: flex;
+            gap: 8px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .dot.active {
+            background: var(--accent-color);
+            transform: scale(1.2);
+            box-shadow: 0 0 10px var(--accent-color);
+        }
+
+        .terms-box {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 0.85rem;
+            height: 150px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+            color: #999;
+        }
+
+        .system-check-item {
+            display: flex;
+            justify-content: space-between;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .check-status {
+            font-weight: 700;
+        }
+
+        .check-status.checking {
+            color: var(--accent-color);
+        }
+
+        .check-status.success {
+            color: var(--success-color);
+        }
+
+        .check-status.fail {
+            color: #ff3d71;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Custom Title Bar -->
+    <div id="setup-title-bar"
+        style="position:fixed; top:0; left:0; width:100%; height:32px; display:flex; justify-content:flex-end; -webkit-app-region:drag; z-index:1000;">
+        <div id="setup-window-controls" style="-webkit-app-region:no-drag; display:flex;">
+            <button id="setup-min-btn"
+                style="background:transparent; border:none; color:#888; padding:8px 15px; cursor:pointer; font-size:12px;"
+                title="Minimize">─</button>
+            <button id="setup-close-btn"
+                style="background:transparent; border:none; color:#888; padding:8px 15px; cursor:pointer; font-size:12px;"
+                title="Close">✕</button>
+        </div>
+    </div>
+
+    <div id="setup-container">
+        <!-- Slide 1: Welcome -->
+        <div class="slide active" id="slide-1">
+            <h1>Welcome!</h1>
+            <p>Let’s get your lab environment ready. SIMATS Lab IDE is a student-built workspace designed for
+                distraction-free coding.</p>
+            <p style="font-size:0.8rem; color:#777; margin-top:8px;">
+                Developed by <strong>Comrade Mohan</strong> · Student Project
+            </p>
+
+            <div class="footer">
+                <div class="progress-dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <button class="btn btn-run" id="next-1">Get Started</button>
+            </div>
+        </div>
+
+        <!-- Slide 2: Permissions -->
+        <div class="slide" id="slide-2">
+            <h1>Transparency First</h1>
+            <p>To function as a professional tool, the app needs the following permissions:</p>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <div class="feature-icon">⚙️</div>
+                    <div class="feature-text">
+                        <strong>Local Execution</strong>
+                        <span>Runs your Java, Python, and C/C++ code locally.</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📂</div>
+                    <div class="feature-text">
+                        <strong>File System</strong>
+                        <span>Saves your projects and temporary code snippets.</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌐</div>
+                    <div class="feature-text">
+                        <strong>Minimal Internet</strong>
+                        <span>Only used for system update checks.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <button class="btn" style="background:#333; color:#fff;" id="back-2">Back</button>
+                <div class="progress-dots">
+                    <div class="dot"></div>
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <button class="btn btn-run" id="next-2">Privacy Notice</button>
+            </div>
+        </div>
+
+        <!-- Slide 3: Privacy -->
+        <div class="slide" id="slide-3">
+            <h1>Your Code Stays Yours</h1>
+            <p>We respect your privacy and the integrity of your work.</p>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <div class="feature-icon">🔒</div>
+                    <div class="feature-text">
+                        <strong>Offline First</strong>
+                        <span>Your code is never uploaded to any remote server.</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🕵️</div>
+                    <div class="feature-text">
+                        <strong>Zero Tracking</strong>
+                        <span>We do not track your typing or activity.</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🛡️</div>
+                    <div class="feature-text">
+                        <strong>No Personal Data</strong>
+                        <span>We don't collect names, IDs, or sensitive info.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <button class="btn" style="background:#333; color:#fff;" id="back-3">Back</button>
+                <div class="progress-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <button class="btn btn-run" id="next-3">Terms</button>
+            </div>
+        </div>
+
+        <!-- Slide 4: Terms -->
+        <div class="slide" id="slide-4">
+            <h1>The Ground Rules</h1>
+            <div class="terms-box">
+                <strong>1. Student Project</strong><br>
+                This app is a student-led initiative and is NOT an official product of SIMATS or any
+                institution.<br><br>
+                <strong>2. As-Is Policy</strong><br>
+                The software is provided "as-is" without warranty. We are not responsible for any bugs or lost
+                work.<br><br>
+                <strong>3. Integrity</strong><br>
+                This tool is for learning. Misuse during formal examinations is strictly prohibited.<br><br>
+                <strong>4. Privacy</strong><br>
+                Data is stored locally. By using the app, you agree to the local storage of your code.
+            </div>
+            <label style="display:flex; align-items:center; gap:10px; font-size:0.85rem; cursor:pointer;">
+                <input type="checkbox" id="terms-agree"> I accept the terms and understand this represents a student
+                project.
+            </label>
+            <div class="footer">
+                <button class="btn" style="background:#333; color:#fff;" id="back-4">Back</button>
+                <div class="progress-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                </div>
+                <button class="btn btn-run" id="next-4" disabled>System Check</button>
+            </div>
+        </div>
+
+        <!-- Slide 5: System Check -->
+        <div class="slide" id="slide-5">
+            <h1>Checking your engines</h1>
+            <p>We're verifying if the required compilers are installed.</p>
+            <div class="system-check-list">
+                <div class="system-check-item">
+                    <span>Python Interpreter</span>
+                    <span class="check-status checking" id="check-python">Checking...</span>
+                </div>
+                <div class="system-check-item">
+                    <span>Java Compiler (JDK)</span>
+                    <span class="check-status checking" id="check-java">Checking...</span>
+                </div>
+                <div class="system-check-item">
+                    <span>C Compiler (GCC)</span>
+                    <span class="check-status checking" id="check-c">Checking...</span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="progress-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot active"></div>
+                </div>
+                <button class="btn btn-run" id="finish-setup" style="opacity:0.5; pointer-events:none;">Finish
+                    Setup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="setup-renderer.js"></script>
+</body>
+
+</html>

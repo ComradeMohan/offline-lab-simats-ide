@@ -1,0 +1,1558 @@
+{
+    "course": "CSA09 – C Programming",
+        "total_questions": 97,
+            "questions": [
+                {
+                    "id": 1,
+                    "title": "Addition Function with Arguments",
+                    "question_statement": "Write a program to solve: Addition using a function with arguments but no return value [1].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "87, 78",
+                    "sample_output": "addition=165",
+                    "solution_explanation": "Define a method that takes two integers as parameters and prints their sum directly [1]. This demonstrates basic method parameters [1].",
+                    "test_cases": [
+                        {
+                            "input": "87, 78",
+                            "expected_output": "addition=165"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Addition Function without Arguments",
+                    "question_statement": "Write a program to solve: Addition using a function with no arguments and no return value [2].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "None",
+                    "sample_output": "addition=30",
+                    "solution_explanation": "Implement a method that initializes two variables internally and prints their sum without receiving outside input [2].",
+                    "test_cases": [
+                        {
+                            "input": "N/A",
+                            "expected_output": "addition=30"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Matrix Addition",
+                    "question_statement": "Write a program to solve: Matrix addition using 2D arrays [2].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "a[2]={2,4,6,8}, b[2]={12,13,25,17}",
+                    "sample_output": "14 17\n31 25",
+                    "solution_explanation": "Use nested loops to iterate through rows and columns, adding elements of two matrices into a result matrix [2, 3].",
+                    "test_cases": [
+                        {
+                            "input": "2,4,6,8; 12,13,25,17",
+                            "expected_output": "14 17 31 25"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Anagram Check",
+                    "question_statement": "Write a program to solve: Check if two strings are anagrams [3].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "save, vase",
+                    "sample_output": "given strings are anagram",
+                    "solution_explanation": "Sort both strings and compare them character by character to see if they are identical [3, 4].",
+                    "test_cases": [
+                        {
+                            "input": "save, vase",
+                            "expected_output": "given strings are anagram"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Anti-Diagonal Sum",
+                    "question_statement": "Write a program to solve: Find anti-diagonal elements of a matrix and calculate their sum [4].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "3x3 matrix values [4]",
+                    "sample_output": "sum of diagonal number=750",
+                    "solution_explanation": "Identify elements where row index plus column index equals size minus one and sum them [4, 5].",
+                    "test_cases": [
+                        {
+                            "input": "10 50 150 200 250 300 350 400 450",
+                            "expected_output": "750"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title": "Area of Circle",
+                    "question_statement": "Write a program to solve: Calculate the area of a circle with a given radius [5].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "6",
+                    "sample_output": "area=113.04",
+                    "solution_explanation": "Use the formula 3.14 multiplied by the square of the radius [5].",
+                    "test_cases": [
+                        {
+                            "input": "6",
+                            "expected_output": "113.04"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "title": "Area of Rectangle",
+                    "question_statement": "Write a program to solve: Calculate the area of a rectangle given length and breadth [6].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "5, 8",
+                    "sample_output": "area of rectangle=40",
+                    "solution_explanation": "Multiply the length by the breadth to find the total area [6].",
+                    "test_cases": [
+                        {
+                            "input": "5, 8",
+                            "expected_output": "40"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "title": "Area of Triangle",
+                    "question_statement": "Write a program to solve: Calculate the area of a triangle [6].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "6, 12",
+                    "sample_output": "area of triangle=36",
+                    "solution_explanation": "Apply the formula 0.5 multiplied by base and height [6].",
+                    "test_cases": [
+                        {
+                            "input": "6, 12",
+                            "expected_output": "36"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "title": "Armstrong Number",
+                    "question_statement": "Write a program to solve: Determine if a number is an Armstrong number [7].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "153",
+                    "sample_output": "153 is armstrong number",
+                    "solution_explanation": "Sum the cubes of each digit and check if the total equals the original number [7].",
+                    "test_cases": [
+                        {
+                            "input": "153",
+                            "expected_output": "armstrong"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "title": "Array Operations",
+                    "question_statement": "Write a program to solve: Input and display five values using an array [7].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "1, 2, 3, 4, 5",
+                    "sample_output": "displaying values: 1 2 3 4 5",
+                    "solution_explanation": "Use a for loop to take user input and another to print the array contents [7, 8].",
+                    "test_cases": [
+                        {
+                            "input": "1 2 3 4 5",
+                            "expected_output": "1 2 3 4 5"
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "title": "Call by Reference Swapping",
+                    "question_statement": "Write a program to solve: Swap two numbers using call by reference [8].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "50, 100",
+                    "sample_output": "after swapping x=100 and y=50",
+                    "solution_explanation": "Pass the addresses of variables to a function to modify their actual values [8].",
+                    "test_cases": [
+                        {
+                            "input": "50 100",
+                            "expected_output": "100 50"
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "title": "Call by Value Swapping",
+                    "question_statement": "Write a program to solve: Demonstrate why call by value does not swap original variables [9].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "5, 10",
+                    "sample_output": "after swapping x=5 and y=10",
+                    "solution_explanation": "Observe that passing values rather than references only swaps local copies within the function [9].",
+                    "test_cases": [
+                        {
+                            "input": "5 10",
+                            "expected_output": "5 10"
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "title": "Celsius to Fahrenheit",
+                    "question_statement": "Write a program to solve: Convert Celsius temperature to Fahrenheit [9].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "60",
+                    "sample_output": "fahrenheit=140.00",
+                    "solution_explanation": "Multiply the Celsius value by 1.8 and add 32 to get Fahrenheit [9].",
+                    "test_cases": [
+                        {
+                            "input": "60",
+                            "expected_output": "140.00"
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "title": "Circumference of Circle",
+                    "question_statement": "Write a program to solve: Calculate the circumference of a circle [10].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "4",
+                    "sample_output": "circumference of circle=25.12cm",
+                    "solution_explanation": "Apply the formula 2 multiplied by 3.14 multiplied by the radius [10].",
+                    "test_cases": [
+                        {
+                            "input": "4",
+                            "expected_output": "25.12"
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "title": "Compound Interest",
+                    "question_statement": "Write a program to solve: Calculate Compound Interest [10].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "P=2000, R=6, N=3, T=2",
+                    "sample_output": "CI=252.32",
+                    "solution_explanation": "Use the compound interest formula involving the power function from the math library [10].",
+                    "test_cases": [
+                        {
+                            "input": "2000, 6, 3, 2",
+                            "expected_output": "252.32"
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "title": "Count of Digits",
+                    "question_statement": "Write a program to solve: Count the number of digits in a given integer [11].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "775",
+                    "sample_output": "no.of digits=3",
+                    "solution_explanation": "Iteratively divide the number by 10 until it becomes zero, incrementing a counter at each step [11].",
+                    "test_cases": [
+                        {
+                            "input": "775",
+                            "expected_output": "3"
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "title": "Book Data Structure",
+                    "question_statement": "Write a program to solve: Create and display book information using a structure [11].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "Title, Author, Pages, Price",
+                    "sample_output": "book name:The Lion King",
+                    "solution_explanation": "Define a structure with members for name, author, pages, and price, then initialize and print them [11, 12].",
+                    "test_cases": [
+                        {
+                            "input": "The Lion King, Mufasa, 25, 2500.25",
+                            "expected_output": "The Lion King, Mufasa, 25, 2500.25"
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "title": "Divisibility Check",
+                    "question_statement": "Write a program to solve: Check if entered numbers are divisible by 4 [13].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "4, 7, 8, 9",
+                    "sample_output": "4 is divisible by 4, 8 is divisible by 4",
+                    "solution_explanation": "Use the modulo operator to determine if the remainder is zero when divided by 4 [13].",
+                    "test_cases": [
+                        {
+                            "input": "4 7 8 9",
+                            "expected_output": "4 8"
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "title": "Do-While Loop Counting",
+                    "question_statement": "Write a program to solve: Print a range of numbers using a do-while loop [14].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "Limit=24",
+                    "sample_output": "1 to 24",
+                    "solution_explanation": "Execute a block once and repeat until the condition (a <= 24) is false [14].",
+                    "test_cases": [
+                        {
+                            "input": "24",
+                            "expected_output": "1..24"
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "title": "String Name Input",
+                    "question_statement": "Write a program to solve: Accept and display a name using fgets and puts [14].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "User Name",
+                    "sample_output": "Your name is: User Name",
+                    "solution_explanation": "Utilize string input/output functions to handle character arrays safely [14].",
+                    "test_cases": [
+                        {
+                            "input": "Rohit",
+                            "expected_output": "Your name is: Rohit"
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "title": "Factorial Calculation",
+                    "question_statement": "Write a program to solve: Calculate the factorial of a number iteratively [15].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "5",
+                    "sample_output": "n!=120",
+                    "solution_explanation": "Use a for loop to multiply numbers from 1 up to the target value [15].",
+                    "test_cases": [
+                        {
+                            "input": "5",
+                            "expected_output": "120"
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "title": "Fahrenheit to Celsius",
+                    "question_statement": "Write a program to solve: Convert Fahrenheit temperature to Celsius [15].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "98",
+                    "sample_output": "celsius=36.30",
+                    "solution_explanation": "Subtract 32 from Fahrenheit and multiply by 0.55 [15].",
+                    "test_cases": [
+                        {
+                            "input": "98",
+                            "expected_output": "36.30"
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "title": "Fibonacci Series",
+                    "question_statement": "Write a program to solve: Generate a Fibonacci series up to 10 terms [16].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "1,2,3,5,8,13,21,34,55,89",
+                    "solution_explanation": "Calculate the next term by adding the two previous terms in the sequence [16].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "1,2,3,5,8,13,21,34,55,89"
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "title": "Frequency of Character",
+                    "question_statement": "Write a program to solve: Find how many times a character appears in a string [16].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "congralutions, o",
+                    "sample_output": "frequency of o=2",
+                    "solution_explanation": "Traverse the string and increment a counter every time the target character is matched [16, 17].",
+                    "test_cases": [
+                        {
+                            "input": "congralutions, o",
+                            "expected_output": "2"
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "title": "Hollow Diamond Pattern",
+                    "question_statement": "Write a program to solve: Print a hollow diamond shape using stars [17].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "5",
+                    "sample_output": "Hollow Diamond Shape",
+                    "solution_explanation": "Use nested loops and conditional checks for specific positions to print stars or spaces [17, 18].",
+                    "test_cases": [
+                        {
+                            "input": "5",
+                            "expected_output": "Hollow Diamond"
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "title": "Hollow Rectangle Pattern",
+                    "question_statement": "Write a program to solve: Print a hollow rectangle with stars [18].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "Hollow Rectangle Shape",
+                    "solution_explanation": "Iterate through rows and columns, printing stars only for the first and last rows/columns [18].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "Rectangle"
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "title": "If-Else Ladder",
+                    "question_statement": "Write a program to solve: Compare two values and display results using a ladder [19].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "a=5, b=10",
+                    "sample_output": "result :5<10",
+                    "solution_explanation": "Evaluate conditions sequentially to check for equality, greater than, or less than [19].",
+                    "test_cases": [
+                        {
+                            "input": "5 10",
+                            "expected_output": "5<10"
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "title": "Inverted Right Triangle",
+                    "question_statement": "Write a program to solve: Print an inverted triangle pattern [19].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "Inverted Triangle",
+                    "solution_explanation": "Run an outer loop backwards to decrease the number of columns printed in each row [19].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "Inverted Pattern"
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "title": "Isogram Check",
+                    "question_statement": "Write a program to solve: Check if a string is an isogram [20].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "sai",
+                    "sample_output": "given string a isogram",
+                    "solution_explanation": "Verify if the string contains any repeating characters [20, 21].",
+                    "test_cases": [
+                        {
+                            "input": "sai",
+                            "expected_output": "isogram"
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "title": "Leap Year",
+                    "question_statement": "Write a program to solve: Determine if a year is a leap year [20].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "2024",
+                    "sample_output": "03/10/2024 is a leap year",
+                    "solution_explanation": "Check if a year is divisible by 400 or by 4 but not by 100 [20, 22].",
+                    "test_cases": [
+                        {
+                            "input": "2024",
+                            "expected_output": "leap year"
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "title": "Logical Operators",
+                    "question_statement": "Write a program to solve: Demonstrate the use of logical AND and OR operators [22].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "a=5, b=10",
+                    "sample_output": "(a==b)&&(a>b) is 0",
+                    "solution_explanation": "Evaluate boolean expressions to see how logical operators affect true/false results [22, 23].",
+                    "test_cases": [
+                        {
+                            "input": "5 10",
+                            "expected_output": "0"
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "title": "Matrix Transpose",
+                    "question_statement": "Write a program to solve: Transpose a given 2x2 matrix [23].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "10,50,150,200",
+                    "sample_output": "10 150 50 200",
+                    "solution_explanation": "Swap the rows and columns of a matrix using two-dimensional arrays [23, 24].",
+                    "test_cases": [
+                        {
+                            "input": "10 50 150 200",
+                            "expected_output": "10 150 50 200"
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "title": "3x3 Matrix IO",
+                    "question_statement": "Write a program to solve: Accept and display a 3x3 matrix [25].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "9 integers",
+                    "sample_output": "matrix values in 3x3 format",
+                    "solution_explanation": "Use nested for-loops to scan input into a grid and print it [25].",
+                    "test_cases": [
+                        {
+                            "input": "1..9",
+                            "expected_output": "1 2 3...9"
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "title": "Matrix Multiplication",
+                    "question_statement": "Write a program to solve: Multiply two 2x2 matrices [25].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "A={2,4,6,8}, B={12,13,25,17}",
+                    "sample_output": "Matrix result [26]",
+                    "solution_explanation": "Calculate the product of matrices using three nested loops for dot products [25-27].",
+                    "test_cases": [
+                        {
+                            "input": "matrices",
+                            "expected_output": "product"
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "title": "Multiplication Table",
+                    "question_statement": "Write a program to solve: Print the multiplication table for a number [26].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "5",
+                    "sample_output": "5*1=5...5*10=50",
+                    "solution_explanation": "Loop from 0 or 1 up to 10 and display the product of the number and loop index [26].",
+                    "test_cases": [
+                        {
+                            "input": "5",
+                            "expected_output": "5*1=5..50"
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "title": "Natural Numbers",
+                    "question_statement": "Write a program to solve: Display first N natural numbers [28].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "5",
+                    "sample_output": "1 2 3 4 5",
+                    "solution_explanation": "Iterate from 1 up to the user-defined limit and print each index [26, 28].",
+                    "test_cases": [
+                        {
+                            "input": "5",
+                            "expected_output": "1 2 3 4 5"
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "title": "Configurable Loops",
+                    "question_statement": "Write a program to solve: Print a message N times based on input [28].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "3",
+                    "sample_output": "SIMATS SIMATS SIMATS",
+                    "solution_explanation": "Take an integer input and use it as the termination condition for a for-loop [28].",
+                    "test_cases": [
+                        {
+                            "input": "3",
+                            "expected_output": "SIMATS 3 times"
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "title": "Orthogonal Matrix",
+                    "question_statement": "Write a program to solve: Determine if a 3x3 matrix is orthogonal [28].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "Identity Matrix",
+                    "sample_output": "the given matrix is orthogonal matrix",
+                    "solution_explanation": "Verify if the matrix multiplied by its transpose yields an identity matrix [28, 29].",
+                    "test_cases": [
+                        {
+                            "input": "1,0,0,0,1,0,0,0,1",
+                            "expected_output": "orthogonal"
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "title": "Palindrome Number",
+                    "question_statement": "Write a program to solve: Check if an integer is a palindrome [29].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "121",
+                    "sample_output": "121 is a palindrome",
+                    "solution_explanation": "Reverse the digits and compare the result with the original input [29-31].",
+                    "test_cases": [
+                        {
+                            "input": "121",
+                            "expected_output": "palindrome"
+                        }
+                    ]
+                },
+                {
+                    "id": 40,
+                    "title": "Perimeter of Rectangle",
+                    "question_statement": "Write a program to solve: Calculate the perimeter of a rectangle [30].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "6, 18",
+                    "sample_output": "perimeter of rectangle=48",
+                    "solution_explanation": "Multiply the sum of length and breadth by two [30, 32].",
+                    "test_cases": [
+                        {
+                            "input": "6 18",
+                            "expected_output": "48"
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "title": "Positive or Negative",
+                    "question_statement": "Write a program to solve: Verify if a number is positive, negative, or zero [33].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "-5",
+                    "sample_output": "given number is negative=-5",
+                    "solution_explanation": "Use conditional statements to categorize input based on comparison to zero [30, 33-35].",
+                    "test_cases": [
+                        {
+                            "input": "-5",
+                            "expected_output": "negative"
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "title": "Recursive Factorial",
+                    "question_statement": "Write a program to solve: Calculate factorial using recursion [33].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "5",
+                    "sample_output": "factorial of 5=120",
+                    "solution_explanation": "Call a function recursively decreasing N until it reaches one [33, 36, 37].",
+                    "test_cases": [
+                        {
+                            "input": "5",
+                            "expected_output": "120"
+                        }
+                    ]
+                },
+                {
+                    "id": 43,
+                    "title": "Manual String Reversal",
+                    "question_statement": "Write a program to solve: Reverse a string without using library functions [36].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "visakhapatnam",
+                    "sample_output": "manpatakahsiv",
+                    "solution_explanation": "Swap characters from the beginning and end of the string moving inward [36, 38].",
+                    "test_cases": [
+                        {
+                            "input": "hello",
+                            "expected_output": "olleh"
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "title": "Right Triangle Pattern",
+                    "question_statement": "Write a program to solve: Print a right-angled triangle pattern [39].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "Star triangle",
+                    "solution_explanation": "Use nested loops where the inner loop prints stars equal to the current row number [39].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "Stars"
+                        }
+                    ]
+                },
+                {
+                    "id": 45,
+                    "title": "Equatorial Triangle",
+                    "question_statement": "Write a program to solve: Print a side equatorial triangle with different symbols [39].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "5",
+                    "sample_output": "Symbols # and @",
+                    "solution_explanation": "Use one set of loops for increasing stars and another for decreasing them [39, 40].",
+                    "test_cases": [
+                        {
+                            "input": "5",
+                            "expected_output": "# pattern then @ pattern"
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "title": "Simple Interest Formula",
+                    "question_statement": "Write a program to solve: Calculate simple interest given P, R, and T [40].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "1000, 8, 5",
+                    "sample_output": "SI=400",
+                    "solution_explanation": "Apply the calculation (P * T * R) / 100 [40, 41].",
+                    "test_cases": [
+                        {
+                            "input": "1000 5 8",
+                            "expected_output": "400"
+                        }
+                    ]
+                },
+                {
+                    "id": 47,
+                    "title": "Simple Interest Function",
+                    "question_statement": "Write a program to solve: Calculate SI using a function with logic for customer types [42].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "2000, 3, 'n'",
+                    "sample_output": "simple interest is 600.00",
+                    "solution_explanation": "Implement logic to set interest rates based on customer type within a function [40, 42].",
+                    "test_cases": [
+                        {
+                            "input": "2000, 3, 'n'",
+                            "expected_output": "600.00"
+                        }
+                    ]
+                },
+                {
+                    "id": 48,
+                    "title": "Square Pattern",
+                    "question_statement": "Write a program to solve: Print a 10x10 square pattern of stars [43].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "Square star pattern",
+                    "solution_explanation": "Use nested loops running up to the same limit to create a grid [42, 43].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "10x10 grid"
+                        }
+                    ]
+                },
+                {
+                    "id": 49,
+                    "title": "Matrix Subtraction",
+                    "question_statement": "Write a program to solve: Subtract one matrix from another [43].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "Matrices A and B",
+                    "sample_output": "Difference matrix",
+                    "solution_explanation": "Subtract elements of the second matrix from the first using dual loops [43, 44].",
+                    "test_cases": [
+                        {
+                            "input": "matrices",
+                            "expected_output": "subtraction result"
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "title": "Matrix Sum and Average",
+                    "question_statement": "Write a program to solve: Calculate total sum and average of elements in a matrix [45].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "3x3 matrix values",
+                    "sample_output": "sum=180, avg=20",
+                    "solution_explanation": "Traverse the 2D array, sum the items, and divide by the total number of elements [45, 46].",
+                    "test_cases": [
+                        {
+                            "input": "values",
+                            "expected_output": "sum and avg"
+                        }
+                    ]
+                },
+                {
+                    "id": 51,
+                    "title": "Diagonal Sum",
+                    "question_statement": "Write a program to solve: Find the sum of main diagonal elements in a matrix [47].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "3x3 matrix",
+                    "sample_output": "sum of diagonal number=710",
+                    "solution_explanation": "Add elements only where the row index and column index are equal [47].",
+                    "test_cases": [
+                        {
+                            "input": "values",
+                            "expected_output": "710"
+                        }
+                    ]
+                },
+                {
+                    "id": 52,
+                    "title": "Sum of Digits",
+                    "question_statement": "Write a program to solve: Find the sum of digits of a given integer [48].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "1567",
+                    "sample_output": "sum of digits=19",
+                    "solution_explanation": "Extract digits using modulo 10 and accumulate them in a sum [48, 49].",
+                    "test_cases": [
+                        {
+                            "input": "1567",
+                            "expected_output": "19"
+                        }
+                    ]
+                },
+                {
+                    "id": 53,
+                    "title": "Even and Odd Sums",
+                    "question_statement": "Write a program to solve: Sum even and odd numbers within a range [48].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "Range 0-45",
+                    "sample_output": "even sum=462, odd sum=484",
+                    "solution_explanation": "Use a loop to check each number's parity and add to the respective total [48, 50, 51].",
+                    "test_cases": [
+                        {
+                            "input": "45",
+                            "expected_output": "even and odd totals"
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "title": "While Loop Sum",
+                    "question_statement": "Write a program to solve: Sum first N natural numbers using a while loop [50].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "4",
+                    "sample_output": "sum=10",
+                    "solution_explanation": "Execute a while loop incrementing a counter and adding to the total [50].",
+                    "test_cases": [
+                        {
+                            "input": "4",
+                            "expected_output": "10"
+                        }
+                    ]
+                },
+                {
+                    "id": 55,
+                    "title": "Harmonic Series Sum",
+                    "question_statement": "Write a program to solve: Calculate the sum of 1 + 1/2 + 1/3 ... 1/n [52].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "2.93",
+                    "solution_explanation": "Add the reciprocal of loop index to a floating point sum [50, 52].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "2.93"
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "title": "Cube Series Sum",
+                    "question_statement": "Write a program to solve: Sum of cubes of first N numbers [52].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "3025",
+                    "solution_explanation": "Accumulate the cube of each integer in the range into a sum [52].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "3025"
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "title": "Square Series Sum",
+                    "question_statement": "Write a program to solve: Sum of squares of first N numbers [53].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "10",
+                    "sample_output": "385",
+                    "solution_explanation": "Iterate and add the square of each index to a running total [53].",
+                    "test_cases": [
+                        {
+                            "input": "10",
+                            "expected_output": "385"
+                        }
+                    ]
+                },
+                {
+                    "id": 58,
+                    "title": "Voting Eligibility",
+                    "question_statement": "Write a program to solve: Determine if a user is eligible to vote [53].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "5",
+                    "sample_output": "not eligible for vote",
+                    "solution_explanation": "Compare the age input with the threshold of 18 [53, 54].",
+                    "test_cases": [
+                        {
+                            "input": "5",
+                            "expected_output": "not eligible"
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "title": "Vowel or Consonant",
+                    "question_statement": "Write a program to solve: Check if a character is a vowel or consonant [54].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "a",
+                    "sample_output": "a is a vowel",
+                    "solution_explanation": "Identify if the character belongs to the set {a, e, i, o, u} [54-57].",
+                    "test_cases": [
+                        {
+                            "input": "a",
+                            "expected_output": "vowel"
+                        }
+                    ]
+                },
+                {
+                    "id": 60,
+                    "title": "String Character Analysis",
+                    "question_statement": "Write a program to solve: Count vowels, consonants, digits, and spaces in a string [55].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "simats university chennai",
+                    "sample_output": "vowels:10, consonants:13, digits:0, space:2",
+                    "solution_explanation": "Iterate through character array and increment specific counters based on character types [55, 58].",
+                    "test_cases": [
+                        {
+                            "input": "simats university chennai",
+                            "expected_output": "v10 c13 d0 s2"
+                        }
+                    ]
+                },
+                {
+                    "id": 61,
+                    "title": "While Loop Counting",
+                    "question_statement": "Write a program to solve: Print numbers 1 to 10 using a while loop [58].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "None",
+                    "sample_output": "1 to 10",
+                    "solution_explanation": "Start a counter at 1 and increment while less than or equal to 10 [58].",
+                    "test_cases": [
+                        {
+                            "input": "none",
+                            "expected_output": "1..10"
+                        }
+                    ]
+                },
+                {
+                    "id": 62,
+                    "title": "Max/Min with Pointers",
+                    "question_statement": "Write a program to solve: Find max and min in an array using pointers [59].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "{2,9,7,6,5}",
+                    "sample_output": "max value=9, min value=2",
+                    "solution_explanation": "Use pointer arithmetic to traverse the array and compare elements [51, 59].",
+                    "test_cases": [
+                        {
+                            "input": "2 9 7 6 5",
+                            "expected_output": "9 2"
+                        }
+                    ]
+                },
+                {
+                    "id": 63,
+                    "title": "Pointer Array Access",
+                    "question_statement": "Write a program to solve: Print all elements of an array using pointers [59].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "{1,2,3,4,5,6}",
+                    "sample_output": "1 to 6",
+                    "solution_explanation": "Increment a pointer and dereference it to access and print each index [59, 60].",
+                    "test_cases": [
+                        {
+                            "input": "1 2 3 4 5 6",
+                            "expected_output": "1 2 3 4 5 6"
+                        }
+                    ]
+                },
+                {
+                    "id": 64,
+                    "title": "Add Element to Array",
+                    "question_statement": "Write a program to solve: Insert an element at a specific position in an array [60].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "pos=3, value=46",
+                    "sample_output": "Updated array",
+                    "solution_explanation": "Shift existing elements and assign the new value to the targeted index [60].",
+                    "test_cases": [
+                        {
+                            "input": "3 46",
+                            "expected_output": "array with 46 at index 3"
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "title": "Pointer Matrix Addition",
+                    "question_statement": "Write a program to solve: Perform matrix addition using pointers [61].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "Two 2x3 matrices",
+                    "sample_output": "Sum result",
+                    "solution_explanation": "Access matrix elements via pointers and store their sums in a result matrix [60, 61].",
+                    "test_cases": [
+                        {
+                            "input": "matrices",
+                            "expected_output": "sum"
+                        }
+                    ]
+                },
+                {
+                    "id": 66,
+                    "title": "String Sort",
+                    "question_statement": "Write a program to solve: Sort characters of a string alphabetically [61].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "sairohit",
+                    "sample_output": "sorted array=ahiiorst",
+                    "solution_explanation": "Compare and swap adjacent characters based on their ASCII values [61].",
+                    "test_cases": [
+                        {
+                            "input": "sairohit",
+                            "expected_output": "ahiiorst"
+                        }
+                    ]
+                },
+                {
+                    "id": 67,
+                    "title": "Basic Arithmetic",
+                    "question_statement": "Write a program to solve: Perform sum, sub, product, quotient, and remainder [62].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "3, 9",
+                    "sample_output": "sum=12, sub=-6, prod=27, quot=3, rem=0",
+                    "solution_explanation": "Execute standard mathematical operations on two integer inputs [44, 62].",
+                    "test_cases": [
+                        {
+                            "input": "3 9",
+                            "expected_output": "12 -6 27 3 0"
+                        }
+                    ]
+                },
+                {
+                    "id": 68,
+                    "title": "Student Record Structure",
+                    "question_statement": "Write a program to solve: Define a student structure and print details [62].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "ROHIT, 1, 90",
+                    "sample_output": "ROHIT 1 90.000000",
+                    "solution_explanation": "Store name, roll number, and marks in a structure and output the object fields [62].",
+                    "test_cases": [
+                        {
+                            "input": "ROHIT 1 90",
+                            "expected_output": "ROHIT 1 90.00"
+                        }
+                    ]
+                },
+                {
+                    "id": 69,
+                    "title": "Bubble Sort",
+                    "question_statement": "Write a program to solve: Sort an array using bubble sort [63].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "{2,3,88,9,65}",
+                    "sample_output": "2 3 9 65 88",
+                    "solution_explanation": "Iterate through the array swapping adjacent elements that are out of order [63].",
+                    "test_cases": [
+                        {
+                            "input": "2 3 88 9 65",
+                            "expected_output": "2 3 9 65 88"
+                        }
+                    ]
+                },
+                {
+                    "id": 70,
+                    "title": "Pointer Bubble Sort",
+                    "question_statement": "Write a program to solve: Implement bubble sort using pointer notation [64].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "{1,2,39,44,5,6}",
+                    "sample_output": "1 2 5 6 39 44",
+                    "solution_explanation": "Use pointers and nested loops to swap array elements until sorted [63, 64].",
+                    "test_cases": [
+                        {
+                            "input": "1 2 39 44 5 6",
+                            "expected_output": "1 2 5 6 39 44"
+                        }
+                    ]
+                },
+                {
+                    "id": 71,
+                    "title": "Basic Calculator",
+                    "question_statement": "Write a program to solve: Create a calculator using a switch statement [64].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "5, 10, *",
+                    "sample_output": "mul=50",
+                    "solution_explanation": "Direct execution flow based on user-provided operators (+, -, *, /) [64, 65].",
+                    "test_cases": [
+                        {
+                            "input": "5 10 *",
+                            "expected_output": "50"
+                        }
+                    ]
+                },
+                {
+                    "id": 72,
+                    "title": "Character Categorizer",
+                    "question_statement": "Write a program to solve: Identify if a char is uppercase, lowercase, or a digit [66].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "A",
+                    "sample_output": "capital",
+                    "solution_explanation": "Check character value against specific ASCII ranges for classification [66].",
+                    "test_cases": [
+                        {
+                            "input": "A",
+                            "expected_output": "capital"
+                        }
+                    ]
+                },
+                {
+                    "id": 73,
+                    "title": "String Comparison",
+                    "question_statement": "Write a program to solve: Check if two strings are identical without library functions [67].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "Rohit, Rohu",
+                    "sample_output": "not",
+                    "solution_explanation": "Loop through both strings and compare character by character; if any differ, they are not same [67].",
+                    "test_cases": [
+                        {
+                            "input": "Rohit Rohu",
+                            "expected_output": "not"
+                        }
+                    ]
+                },
+                {
+                    "id": 74,
+                    "title": "String Concatenation",
+                    "question_statement": "Write a program to solve: Join two strings manually [68].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "Rohit, rohi",
+                    "sample_output": "string=Rohit rohi",
+                    "solution_explanation": "Append characters of the second string to the end of the first string [67, 68].",
+                    "test_cases": [
+                        {
+                            "input": "Rohit rohi",
+                            "expected_output": "Rohit rohi"
+                        }
+                    ]
+                },
+                {
+                    "id": 75,
+                    "title": "Pointer Concatenation",
+                    "question_statement": "Write a program to solve: Concatenate strings using pointers [68].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "JENNY, SAIROHIT",
+                    "sample_output": "JENNY SAIROHIT",
+                    "solution_explanation": "Navigate to the end of the first string with a pointer and copy characters from the second [68].",
+                    "test_cases": [
+                        {
+                            "input": "JENNY SAIROHIT",
+                            "expected_output": "JENNY SAIROHIT"
+                        }
+                    ]
+                },
+                {
+                    "id": 76,
+                    "title": "String Copy Pointer",
+                    "question_statement": "Write a program to solve: Copy one string to another using pointers [69].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "JENNY",
+                    "sample_output": "string2: JENNY",
+                    "solution_explanation": "Iteratively assign values from source pointer to destination pointer [69].",
+                    "test_cases": [
+                        {
+                            "input": "JENNY",
+                            "expected_output": "JENNY"
+                        }
+                    ]
+                },
+                {
+                    "id": 77,
+                    "title": "Manual String Copy",
+                    "question_statement": "Write a program to solve: Copy a string without library tools [70].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "food",
+                    "sample_output": "copied string=food",
+                    "solution_explanation": "Transfer each index content from one character array to another until the null terminator [70].",
+                    "test_cases": [
+                        {
+                            "input": "food",
+                            "expected_output": "food"
+                        }
+                    ]
+                },
+                {
+                    "id": 78,
+                    "title": "Delete Array Element",
+                    "question_statement": "Write a program to solve: Remove an element from a specific position in an array [71].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "pos=3",
+                    "sample_output": "1, 2, 3, 5",
+                    "solution_explanation": "Shift all elements after the target index to the left and adjust total count [71].",
+                    "test_cases": [
+                        {
+                            "input": "3",
+                            "expected_output": "1 2 3 5"
+                        }
+                    ]
+                },
+                {
+                    "id": 79,
+                    "title": "Digital Root",
+                    "question_statement": "Write a program to solve: Find the digital root of a large number [71].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "97572",
+                    "sample_output": "sum=3",
+                    "solution_explanation": "Continuously sum digits until only a single digit remains [71].",
+                    "test_cases": [
+                        {
+                            "input": "97572",
+                            "expected_output": "3"
+                        }
+                    ]
+                },
+                {
+                    "id": 80,
+                    "title": "Function Parity Check",
+                    "question_statement": "Write a program to solve: Determine even/odd using a boolean-return function [72].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "234",
+                    "sample_output": "even",
+                    "solution_explanation": "Use a function to return 1 for even and 0 for odd after modulo check [72].",
+                    "test_cases": [
+                        {
+                            "input": "234",
+                            "expected_output": "even"
+                        }
+                    ]
+                },
+                {
+                    "id": 81,
+                    "title": "HCF Calculation",
+                    "question_statement": "Write a program to solve: Find Highest Common Factor of two numbers [73].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "100, 200",
+                    "sample_output": "hcf=100",
+                    "solution_explanation": "Identify the largest integer that divides both inputs without a remainder [73].",
+                    "test_cases": [
+                        {
+                            "input": "100 200",
+                            "expected_output": "100"
+                        }
+                    ]
+                },
+                {
+                    "id": 82,
+                    "title": "LCM Function",
+                    "question_statement": "Write a program to solve: Find Least Common Multiple using a function [74].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "25, 30",
+                    "sample_output": "lcm=150",
+                    "solution_explanation": "Loop to find the smallest number divisible by both inputs starting from the maximum of the two [21, 74].",
+                    "test_cases": [
+                        {
+                            "input": "25 30",
+                            "expected_output": "150"
+                        }
+                    ]
+                },
+                {
+                    "id": 83,
+                    "title": "String Length",
+                    "question_statement": "Write a program to solve: Calculate string length manually [74].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "Sai Rohit",
+                    "sample_output": "length of string=9",
+                    "solution_explanation": "Count characters until the null character is reached [74].",
+                    "test_cases": [
+                        {
+                            "input": "Sai Rohit",
+                            "expected_output": "9"
+                        }
+                    ]
+                },
+                {
+                    "id": 84,
+                    "title": "Pointer String Length",
+                    "question_statement": "Write a program to solve: Find string length using pointer arithmetic [75].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "JENNY",
+                    "sample_output": "5",
+                    "solution_explanation": "Increment a pointer through the string and subtract base address or use counter [75].",
+                    "test_cases": [
+                        {
+                            "input": "JENNY",
+                            "expected_output": "5"
+                        }
+                    ]
+                },
+                {
+                    "id": 85,
+                    "title": "Logic Range Check",
+                    "question_statement": "Write a program to solve: Check if a number is between 10 and 20 [76].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "15",
+                    "sample_output": "a is in the range 10-20",
+                    "solution_explanation": "Utilize logical AND to combine two range comparisons [76].",
+                    "test_cases": [
+                        {
+                            "input": "15",
+                            "expected_output": "in range"
+                        }
+                    ]
+                },
+                {
+                    "id": 86,
+                    "title": "Pointer Matrix Multiplier",
+                    "question_statement": "Write a program to solve: Perform matrix multiplication using pointers [77].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "2x3 and 3x2 matrices",
+                    "sample_output": "Resulting grid",
+                    "solution_explanation": "Iteratively calculate dot products using pointer references to 2D array elements [77].",
+                    "test_cases": [
+                        {
+                            "input": "matrices",
+                            "expected_output": "product"
+                        }
+                    ]
+                },
+                {
+                    "id": 87,
+                    "title": "Basic Max/Min Array",
+                    "question_statement": "Write a program to solve: Find maximum and minimum elements in an array [78].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "{1,2,3,55,34,5}",
+                    "sample_output": "55, 1",
+                    "solution_explanation": "Assign first element as max/min and compare with all others [78].",
+                    "test_cases": [
+                        {
+                            "input": "1 2 3 55 34 5",
+                            "expected_output": "55 1"
+                        }
+                    ]
+                },
+                {
+                    "id": 88,
+                    "title": "Function Min/Max Pointers",
+                    "question_statement": "Write a program to solve: Find max/min of two values via pointer return function [79].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "100, 20",
+                    "sample_output": "max=100, min=20",
+                    "solution_explanation": "Update external max/min variables from inside a function using pointers [79].",
+                    "test_cases": [
+                        {
+                            "input": "100 20",
+                            "expected_output": "100 20"
+                        }
+                    ]
+                },
+                {
+                    "id": 89,
+                    "title": "Largest of Three",
+                    "question_statement": "Write a program to solve: Find the largest among three numbers [80].",
+                    "difficulty": "easy",
+                    "max_score": 100,
+                    "sample_input": "a, b, c",
+                    "sample_output": "x is the largest",
+                    "solution_explanation": "Compare three variables using nested if-else or logic gates [80, 81].",
+                    "test_cases": [
+                        {
+                            "input": "10 20 30",
+                            "expected_output": "30"
+                        }
+                    ]
+                },
+                {
+                    "id": 90,
+                    "title": "Merge Arrays",
+                    "question_statement": "Write a program to solve: Combine two arrays into a third array [82].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "arr1, arr2",
+                    "sample_output": "combined array",
+                    "solution_explanation": "Copy elements from first and then second array sequentially into a destination array [82].",
+                    "test_cases": [
+                        {
+                            "input": "1 2; 3 4",
+                            "expected_output": "1 2 3 4"
+                        }
+                    ]
+                },
+                {
+                    "id": 91,
+                    "title": "Word Counter",
+                    "question_statement": "Write a program to solve: Count the number of words in a multi-line string [83].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "multi-line text",
+                    "sample_output": "number of words=X",
+                    "solution_explanation": "Count space characters and newline characters as word boundaries [83].",
+                    "test_cases": [
+                        {
+                            "input": "hello world",
+                            "expected_output": "2"
+                        }
+                    ]
+                },
+                {
+                    "id": 92,
+                    "title": "String Palindrome Check",
+                    "question_statement": "Write a program to solve: Check if a string reads the same forward and backward [83].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "rotator",
+                    "sample_output": "rotator is a palindrome",
+                    "solution_explanation": "Compare characters from outer boundaries moving inward [31, 32, 83, 84].",
+                    "test_cases": [
+                        {
+                            "input": "rotator",
+                            "expected_output": "palindrome"
+                        }
+                    ]
+                },
+                {
+                    "id": 93,
+                    "title": "Pointer Palindrome",
+                    "question_statement": "Write a program to solve: Verify palindrome string using pointers [32].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "madam",
+                    "sample_output": "palindrome",
+                    "solution_explanation": "Use start and end pointers to compare characters until they meet [32].",
+                    "test_cases": [
+                        {
+                            "input": "madam",
+                            "expected_output": "palindrome"
+                        }
+                    ]
+                },
+                {
+                    "id": 94,
+                    "title": "Prime Range",
+                    "question_statement": "Write a program to solve: Display all prime numbers between two limits [85].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "10, 50",
+                    "sample_output": "List of primes",
+                    "solution_explanation": "Iterate through the range and perform primality tests for each number [85].",
+                    "test_cases": [
+                        {
+                            "input": "10 20",
+                            "expected_output": "11 13 17 19"
+                        }
+                    ]
+                },
+                {
+                    "id": 95,
+                    "title": "Prime Sum Range",
+                    "question_statement": "Write a program to solve: Calculate the sum of primes in a specific range [86].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "20, 30",
+                    "sample_output": "sum=52",
+                    "solution_explanation": "Find primes in range and add them to a total sum [86].",
+                    "test_cases": [
+                        {
+                            "input": "20 30",
+                            "expected_output": "52"
+                        }
+                    ]
+                },
+                {
+                    "id": 96,
+                    "title": "Prime Function",
+                    "question_statement": "Write a program to solve: Use a function to check if a number is prime [87].",
+                    "difficulty": "medium",
+                    "max_score": 100,
+                    "sample_input": "23",
+                    "sample_output": "prime",
+                    "solution_explanation": "Encapsulate primality logic within a helper method returning count of factors [86, 87].",
+                    "test_cases": [
+                        {
+                            "input": "23",
+                            "expected_output": "prime"
+                        }
+                    ]
+                },
+                {
+                    "id": 97,
+                    "title": "Remove Duplicates",
+                    "question_statement": "Write a program to solve: Remove duplicate characters from a string [80].",
+                    "difficulty": "hard",
+                    "max_score": 100,
+                    "sample_input": "coffee",
+                    "sample_output": "sorted one=cofe",
+                    "solution_explanation": "Scan string for repeat characters and shift array elements to delete them [80].",
+                    "test_cases": [
+                        {
+                            "input": "coffee",
+                            "expected_output": "cofe"
+                        }
+                    ]
+                }
+            ]
+}

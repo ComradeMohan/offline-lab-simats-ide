@@ -1,0 +1,58 @@
+[
+    {
+        "id": "c_1",
+        "language": "c",
+        "title": "C: Pointer & Address",
+        "difficulty": "Medium",
+        "description": "Write a C program to print the address of a variable using pointers.",
+        "defaultCode": "#include <stdio.h>\n\nint main() {\n    int num = 10;\n    int *ptr = &num;\n    printf(\"Address: %p\\n\", (void*)ptr);\n    return 0;\n}"
+    },
+    {
+        "id": "c_2",
+        "language": "c",
+        "title": "C: Structure basics",
+        "difficulty": "Easy",
+        "description": "Define a structure 'Student' with name and age, and print the details.",
+        "defaultCode": "#include <stdio.h>\n#include <string.h>\n\nstruct Student {\n    char name[50];\n    int age;\n};\n\nint main() {\n    struct Student s1;\n    strcpy(s1.name, \"John\");\n    s1.age = 20;\n    printf(\"Name: %s, Age: %d\", s1.name, s1.age);\n    return 0;\n}"
+    },
+    {
+        "id": "cpp_1",
+        "language": "cpp",
+        "title": "C++: Class & Object",
+        "difficulty": "Easy",
+        "description": "Create a class 'Car' with a method 'drive' that prints 'Vroom!'.",
+        "defaultCode": "#include <iostream>\nusing namespace std;\n\nclass Car {\npublic:\n    void drive() {\n        cout << \"Vroom!\" << endl;\n    }\n};\n\nint main() {\n    Car myCar;\n    myCar.drive();\n    return 0;\n}"
+    },
+    {
+        "id": "java_1",
+        "language": "java",
+        "title": "Java: ArrayList Demo",
+        "difficulty": "Easy",
+        "description": "Create an ArrayList, add 'Apple' and 'Banana', and print the list.",
+        "defaultCode": "import java.util.ArrayList;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<String> list = new ArrayList<>();\n        list.add(\"Apple\");\n        list.add(\"Banana\");\n        System.out.println(list);\n    }\n}"
+    },
+    {
+        "id": "java_2",
+        "language": "java",
+        "title": "Java: Interface Implementation",
+        "difficulty": "Medium",
+        "description": "Create an interface 'Animal' with method 'sound()'. Implement it in 'Dog' class.",
+        "defaultCode": "interface Animal {\n    void sound();\n}\n\nclass Dog implements Animal {\n    public void sound() {\n        System.out.println(\"Bark\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Dog d = new Dog();\n        d.sound();\n    }\n}"
+    },
+    {
+        "id": "py_1",
+        "language": "python",
+        "title": "Python: List Comprehension",
+        "difficulty": "Easy",
+        "description": "Use list comprehension to create a list of squares from 1 to 5.",
+        "defaultCode": "squares = [x**2 for x in range(1, 6)]\nprint(squares)"
+    },
+    {
+        "id": "py_2",
+        "language": "python",
+        "title": "Python: Dictionary Usage",
+        "difficulty": "Easy",
+        "description": "Create a dictionary with keys 'name', 'age' and print the keys.",
+        "defaultCode": "person = {'name': 'Alice', 'age': 25}\nprint(list(person.keys()))"
+    }
+]

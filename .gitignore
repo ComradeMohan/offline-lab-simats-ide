@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Electron
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.AppImage
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env
+.env

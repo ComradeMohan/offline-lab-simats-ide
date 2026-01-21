@@ -1,0 +1,16 @@
+SIMATS Lab IDE - Terms and Conditions
+
+1. Student Project Acknowledgement
+This software is a student-led project and is NOT an official product of SIMATS or any university.
+
+2. Software Usage "As-Is"
+The software is provided "as-is" without any warranties. The developers are not responsible for any bugs, data loss, or system issues.
+
+3. Academic Integrity
+This tool is designed for educational purposes. We do not encourage or support its use for cheating in formal examinations.
+
+4. Data Privacy
+All code and project data are stored locally on your machine. No data is uploaded to our servers.
+
+5. Installation
+By clicking "Install", you agree to these terms.

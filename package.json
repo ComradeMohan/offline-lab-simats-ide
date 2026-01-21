@@ -1,0 +1,60 @@
+{
+  "name": "offline-lab-simats-ide",
+  "productName": "SIMATS Lab IDE",
+  "version": "1.0.0",
+  "description": "Offline Programming Lab IDE for Colleges",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "electron",
+    "ide",
+    "education",
+    "offline"
+  ],
+  "author": "Comrade Mohan",
+  "license": "ISC",
+  "dependencies": {
+    "electron-updater": "^6.7.3",
+    "monaco-editor": "^0.45.0"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^26.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ComradeMohan/offline-lab-simats-ide.git"
+  },
+  "build": {
+    "appId": "com.comrademohan.lab.ide",
+    "productName": "SIMATS Lab IDE",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "ComradeMohan",
+        "repo": "offline-lab-simats-ide"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "SIMATS Lab IDE",
+      "include": "installer.nsh"
+    }
+  }
+}
