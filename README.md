@@ -26,6 +26,7 @@ An Electron-based desktop application designed to provide students with a powerf
 
 ## 🎯 Overview
 
+
 SIMATS Lab IDE is a student-led project designed to provide an offline programming environment for educational institutions. Built with Electron and Monaco Editor (the same editor that powers Visual Studio Code), this IDE enables students to write, edit, and manage code without requiring an internet connection.
 
 **Important Notice:** This software is a student-led project and is NOT an official product of SIMATS or any university.
